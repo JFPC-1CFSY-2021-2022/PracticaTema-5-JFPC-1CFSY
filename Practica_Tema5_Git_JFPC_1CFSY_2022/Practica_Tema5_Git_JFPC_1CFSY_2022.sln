@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica_Tema5_Git_JFPC_1CFSY_2022", "Practica_Tema5_Git_JFPC_1CFSY_2022\Practica_Tema5_Git_JFPC_1CFSY_2022.csproj", "{91D62424-0FC0-4DEB-89E7-E2EFF835BCCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91D62424-0FC0-4DEB-89E7-E2EFF835BCCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D62424-0FC0-4DEB-89E7-E2EFF835BCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D62424-0FC0-4DEB-89E7-E2EFF835BCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D62424-0FC0-4DEB-89E7-E2EFF835BCCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {726FEBEA-65A5-488F-9C4F-3A1CC1D2F4D7}
+	EndGlobalSection
+EndGlobal
