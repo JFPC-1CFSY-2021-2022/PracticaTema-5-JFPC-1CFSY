@@ -31,11 +31,12 @@ namespace Practica_Tema5_Git_JFPC_1CFSY_2022
         {
             this.lblNombreAlu = new System.Windows.Forms.Label();
             this.aluNombre = new System.Windows.Forms.TextBox();
-            this.aluNota = new System.Windows.Forms.TextBox();
             this.lblNotaAlu = new System.Windows.Forms.Label();
             this.listaAlumnos = new System.Windows.Forms.TextBox();
             this.lblListaAlu = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.aluNota = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.aluNota)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNombreAlu
@@ -53,13 +54,6 @@ namespace Practica_Tema5_Git_JFPC_1CFSY_2022
             this.aluNombre.Name = "aluNombre";
             this.aluNombre.Size = new System.Drawing.Size(332, 20);
             this.aluNombre.TabIndex = 1;
-            // 
-            // aluNota
-            // 
-            this.aluNota.Location = new System.Drawing.Point(416, 60);
-            this.aluNota.Name = "aluNota";
-            this.aluNota.Size = new System.Drawing.Size(173, 20);
-            this.aluNota.TabIndex = 2;
             // 
             // lblNotaAlu
             // 
@@ -98,20 +92,28 @@ namespace Practica_Tema5_Git_JFPC_1CFSY_2022
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // aluNota
+            // 
+            this.aluNota.Location = new System.Drawing.Point(416, 59);
+            this.aluNota.Name = "aluNota";
+            this.aluNota.Size = new System.Drawing.Size(120, 20);
+            this.aluNota.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.aluNota);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblListaAlu);
             this.Controls.Add(this.listaAlumnos);
             this.Controls.Add(this.lblNotaAlu);
-            this.Controls.Add(this.aluNota);
             this.Controls.Add(this.aluNombre);
             this.Controls.Add(this.lblNombreAlu);
             this.Name = "Form1";
             this.Text = "Alumnos JFPC_1CFSY_2021_2022";
+            ((System.ComponentModel.ISupportInitialize)(this.aluNota)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,10 +123,10 @@ namespace Practica_Tema5_Git_JFPC_1CFSY_2022
 
         private System.Windows.Forms.Label lblNombreAlu;
         private System.Windows.Forms.TextBox aluNombre;
-        private System.Windows.Forms.TextBox aluNota;
         private System.Windows.Forms.Label lblNotaAlu;
         private System.Windows.Forms.TextBox listaAlumnos;
         private System.Windows.Forms.Label lblListaAlu;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.NumericUpDown aluNota;
     }
 }
